@@ -10,3 +10,5 @@ Project provides an application in the browser that an employee can use to gener
 * JavaScript
 
 ## Demo URL: https://naturuplift.github.io/password-generator/
+
+<!-- Add screenshot for the project -->

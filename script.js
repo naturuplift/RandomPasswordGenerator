@@ -10,7 +10,14 @@ function writePassword(generateBtn) {
 
     passwordText.value = password;
     console.log(passwordText.value)
+}
 
+// Password Generator function with criteria
+function generatePassword() {
+ 
+    // present prompts: lenght of password
+    //present prompts: character type
+    //generate password
 }
 
 // Add event listener to generate button

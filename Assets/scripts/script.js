@@ -21,8 +21,11 @@ function generatePassword() {
     // 1st - Prompt user for the length of the password and
     // check that length is at least 8 characters and no more than 128 character
 
+    How long would you like your password to be? Please choose a number between 8 characters to 128 characters.
+
     // Ask user for character types to include in the password
     // Confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+    // make prompt that includes all of the above via checkmark
 
     // Once user answer to all promts
     // Then validate input with at least one character type that should be selected

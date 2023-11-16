@@ -9,6 +9,7 @@ function writePassword(generateBtn) {
     var passwordText = document.querySelector("#password");
 
     passwordText.value = password;
+    // display value
     console.log(passwordText.value)
 }
 

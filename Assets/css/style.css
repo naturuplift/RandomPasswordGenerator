@@ -12,6 +12,16 @@ body,
   padding: 0;
 }
 
+/* code version style */
+.code-version{
+  /* display: flex;
+  justify-content: center; */
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+  margin-top: 5px;
+}
+
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;

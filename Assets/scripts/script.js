@@ -17,7 +17,7 @@ function writePassword(generateBtn) {
 function generatePassword() {
 
     // Need to present user with a series of prompts for password criteria
-
+    
     // 1st - Prompt user for the length of the password and
     // check that length is at least 8 characters and no more than 128 character
     // --> ask user: How long would you like your password to be?

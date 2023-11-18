@@ -3,17 +3,13 @@
 Project provides an application in the browser that an user can use to generate a random password based on criteria selected.
 User is prompted to enter the length of the password of at least 8 characters and no more than 128 characters and choose character types Lowercase, Uppercase, Numeric, SpecialCharacters to be used to generate password. This features are dynamically updated and once password displayed for 10 seconds it reset webpage to original state.
 
-## Demo URL: https://naturuplift.github.io/password-generator/
-
 ## Original User Interface for Password Generator
 ![Webpage Display](https://github.com/naturuplift/password-generator/assets/23546356/8b13689b-a196-477e-a311-483ef9e040fa)
 
-## User Story
-
+## Source Code
+Source code hosted in Githab: https://naturuplift.github.io/password-generator/
 ```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
+https://naturuplift.github.io/password-generator/
 ```
 
 ## Acceptance Criteria

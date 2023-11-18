@@ -98,12 +98,13 @@ function runTimer(timeInterval, callback) {
     }, timeInterval * 1000); // convert to miliseconds *1000
 }
 
-// Reset the webpage to its initial state
+// Reset webpage to original state
 function resetWebpage() {
-    // assignment code to get password textarea element
+
+    // assignment code to display in webpage block "Your Secure Password"
     var passwordReset = document.querySelector("#password");
 
-    // Set the value of the password to the initial placeholder
+    // Set value of password to original state
     passwordReset.value = "Your Secure Password";
 }
 

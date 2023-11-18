@@ -21,13 +21,8 @@ function writePassword() {
     // Set value of the password to the generated password
     passwordText.value = password;
 
-    // run timmer for 5 seconds and show timer alert
-    // and ask to Generate a New Password
-    runTimerAndShowAlert(5); // value input for timer in seconds
-
-    
-    // reset webpage to initial state
-    // resetWebpage();
+    // run timmer for 10 seconds and reset webpage to initial state
+    runTimer(10, resetWebpage);
 }
 
 // Prompt user for the length of the password
@@ -45,6 +40,12 @@ function promptPasswordLength() {
 // Prompt user for character types for the password
 // character types: lowercase, uppercase, numeric, and/or special characters
 function promptPasswordTypes() {
+
+    // initialize character types
+    confirmLowercase = "";
+    confirmUppercase = "";
+    confirmNumeric = "";
+    confirmSpecialCharacters = "";
 
     // reapeat until one character type is selected
     do {
@@ -65,28 +66,45 @@ function promptPasswordTypes() {
 // to use when generating password with value (true or false)
 function generatePassword(passwordLengthCriteria,useLowercase,useUppercase,useNumeric,useSpecialCharacters) {
 
+    var characterSetPool = ""; // initialize character set pool
+    var randomPassword = ""; // initialize password
+
     // create a pool of characters for each type chosen
     // passwordLengthCriteria,useLowercase,useUppercase,useNumeric,useSpecialCharacters
+    if (useLowercase) characterSetPool += "abcdefghijklmnopqrstuvwxyz";
+    if (useUppercase) characterSetPool += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    if (useNumeric) characterSetPool += "1234567890";
+    if (useSpecialCharacters) characterSetPool += "!@#$%^&*()_+[]{}|;:,.<>?";
 
-
-    return 0; // default value TODO
-}
-
-
-// run timmer for 5 seconds and show timer alert
-function runTimerAndShowAlert(timeInterval) {
-    // run timer for 5 seconds
-    setTimeout(showAlert,timeInterval*1000); // convert to miliseconds *1000
-    function showAlert() { // 
-        alert("Please generate a new password");
+    // select number of characters from pool characterSetPool times
+    for (let i=0; i < passwordLengthCriteria; i++) {
+        // select random character from set pool 'characterSetPool'
+        // by generating a random index within the range of valid indices
+        var randomCharacter = Math.floor(Math.random() * characterSetPool.length);
+        randomPassword += characterSetPool.charAt(randomCharacter); // add character to password
     }
+
+    return randomPassword; // return random password for user criteria
 }
 
-//
+// run timer for timeInterval seconds and after the timer runs out,
+// call the resetWebpage function (passed as a callback)
+function runTimer(timeInterval, callback) {
+    
+    setTimeout(function() { // run timer for timeInterval seconds
+        if (callback) {
+            callback(); // Call the callback function after the timer
+        }
+    }, timeInterval * 1000); // convert to miliseconds *1000
+}
+
+// Reset the webpage to its initial state
 function resetWebpage() {
-    // assignment code to display in webpage block "Your Secure Password"
+    // assignment code to get password textarea element
     var passwordReset = document.querySelector("#password");
-    passwordReset.value = "Your Secure Password"; //reset password
+
+    // Set the value of the password to the initial placeholder
+    passwordReset.value = "Your Secure Password";
 }
 
 // Add event listener for button "Generate Password"

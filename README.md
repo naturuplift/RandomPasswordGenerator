@@ -17,5 +17,5 @@ Project provides an application in the browser that an user can use to generate 
 * Draw.io
 
 ## State Flow Diagram for Sequences of Actions to Generate Password
-![Password-Generator_v2](https://github.com/naturuplift/password-generator/assets/23546356/8040efc9-da89-436d-be66-115c5c50f2a8)
 
+![Password-Generator_v2](https://github.com/naturuplift/password-generator/assets/23546356/8040efc9-da89-436d-be66-115c5c50f2a8)

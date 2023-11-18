@@ -1,6 +1,7 @@
 # Password Generator in JavaScript
 
-Project provides an application in the browser that an user can use to generate a random password based on criteria selected. This features are dynamically updated.
+Project provides an application in the browser that an user can use to generate a random password based on criteria selected.
+User is prompted to enter the length of the password of at least 8 characters and no more than 128 characters and choose character types Lowercase, Uppercase, Numeric, SpecialCharacters to be used to generate password. This features are dynamically updated and once password displayed for 10 seconds it reset webpage to original state.
 
 ## Demo URL: https://naturuplift.github.io/password-generator/
 
@@ -34,14 +35,6 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
-
-### Created using:
-
-* HTML
-* CSS
-* Advanced CSS
-* JavaScript
-* Draw.io
 
 ## State Flow Diagram for Sequences of Actions to Generate Password
 

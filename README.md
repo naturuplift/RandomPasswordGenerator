@@ -15,7 +15,7 @@ https://naturuplift.github.io/password-generator/
 User is prompted to enter the length of the password of at least 8 characters and no more than 128 characters
 ![Password-Length](https://github.com/naturuplift/password-generator/assets/23546356/4957e491-4513-470e-aed6-cea98830c60e)
 
-## Promp for Charaxter Type
+## Promp for Character Type
 User selects which character type to include to generate password
 ![Password-Character-Selection](https://github.com/naturuplift/password-generator/assets/23546356/b9f8c984-3fb7-40b0-9cac-b2294a664999)
 

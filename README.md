@@ -8,9 +8,6 @@ To use the password generator, simply visit the [Password Generator Page][pass-g
 - Password Length: Enter a value between 8 and 128 characters.
 - Character Types: Choose at least one of the following: Lowercase, Uppercase, Numeric, Special Characters.
 
-## Display Options
-Before generating your password, set the time interval for how long you want the password to be displayed. Once generated, the password will be presented on the screen, and the webpage will automatically reset to its original state.
-
 ## Source Code
 Explore the inner workings of the Password Generator by checking out the [source code on GitHub][javascript-code]. Feel free to contribute and enhance the project!
 
@@ -28,8 +25,6 @@ Select the desired character types for password generation.
 
 ## Prompt for Time Interval Display
 Set the duration for displaying the generated password.
-
-![Password-Time-Interval-Display](https://github.com/naturuplift/password-generator/assets/23546356/53259edb-8b16-409c-b6a9-9413625282f9)
 
 ## Password Generated
 View the generated password on the screen.

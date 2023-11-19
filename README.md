@@ -6,8 +6,7 @@ User is prompted to enter the length of the password of at least 8 characters an
 ## Original User Interface for Password Generator
 ![Webpage Display](https://github.com/naturuplift/password-generator/assets/23546356/8b13689b-a196-477e-a311-483ef9e040fa)
 
-## Source Code
-Source code hosted in Githab: https://naturuplift.github.io/password-generator/
+
 ## Source Code
 Source code hosted in Githab: https://naturuplift.github.io/password-generator/
 ```

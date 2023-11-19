@@ -23,9 +23,6 @@ Select the desired character types for password generation.
 
 ![Password-Character-Selection](https://github.com/naturuplift/password-generator/assets/23546356/b9f8c984-3fb7-40b0-9cac-b2294a664999)
 
-## Prompt for Time Interval Display
-Set the duration for displaying the generated password.
-
 ## Password Generated
 View the generated password on the screen.
 

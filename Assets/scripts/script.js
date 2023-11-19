@@ -21,8 +21,8 @@ function writePassword() {
     // Set value of the password to the generated password
     passwordText.value = password;
 
-    // run timmer for 10 seconds and reset webpage to initial state
-    runTimer(10, resetWebpage);
+    // run timmer to reset webpage to initial state
+    runTimer(resetWebpage);
 }
 
 // Prompt user for the length of the password
@@ -87,19 +87,24 @@ function generatePassword(passwordLengthCriteria,useLowercase,useUppercase,useNu
     return randomPassword; // return random password for user criteria
 }
 
-// run timer for timeInterval seconds and after the timer runs out,
+// run timer for time Interval entered by user and after the timer runs out,
 // call the resetWebpage function (passed as a callback)
-function runTimer(timeInterval, callback) {
-    
+function runTimer(callback) {
+    // prompt user for lenght of time to display password
+    timeResetPage = prompt("For how long would you like to display the password (in seconds)?");
+
     setTimeout(function() { // run timer for timeInterval seconds
         if (callback) {
             callback(); // Call the callback function after the timer
         }
-    }, timeInterval * 1000); // convert to miliseconds *1000
+    }, timeResetPage * 1000); // convert to miliseconds *1000
 }
 
 // Reset webpage to original state
 function resetWebpage() {
+
+    // let know user need to generate a new password
+    alert('Time is up! Generate a new password');
 
     // assignment code to display in webpage block "Your Secure Password"
     var passwordReset = document.querySelector("#password");

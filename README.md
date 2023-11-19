@@ -18,18 +18,22 @@ Explore the inner workings of the Password Generator by checking out the [source
 
 ## Prompt for Password Length
 User-friendly input for defining the length of the password.
+
 ![Password-Length](https://github.com/naturuplift/password-generator/assets/23546356/4957e491-4513-470e-aed6-cea98830c60e)
 
 ## Prompt for Character Type
 Select the desired character types for password generation.
+
 ![Password-Character-Selection](https://github.com/naturuplift/password-generator/assets/23546356/b9f8c984-3fb7-40b0-9cac-b2294a664999)
 
 ## Prompt for Time Interval Display
 Set the duration for displaying the generated password.
+
 ![Password-Time-Interval-Display](https://github.com/naturuplift/password-generator/assets/23546356/53259edb-8b16-409c-b6a9-9413625282f9)
 
 ## Password Generated
 View the generated password on the screen.
+
 ![Password-Display](https://github.com/naturuplift/password-generator/assets/23546356/dce432d0-7d51-44fa-9142-06f3afeda505)
 
 ## State Flow Diagram

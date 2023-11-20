@@ -73,7 +73,7 @@ var randomPassword = ""; // initialize password
 if (useLowercase) characterSetPool += "abcdefghijklmnopqrstuvwxyz";
 if (useUppercase) characterSetPool += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 if (useNumeric) characterSetPool += "1234567890";
-if (useSpecialCharacters) characterSetPool += "!@#$%^&*()_+[]{}|;:,.<>?";
+if (useSpecialCharacters) characterSetPool += " !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
 // select number of characters from pool characterSetPool times
 for (let i=0; i < passwordLengthCriteria; i++) {

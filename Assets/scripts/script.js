@@ -40,12 +40,6 @@ return passwordLengthValue;
 // character types: lowercase, uppercase, numeric, and/or special characters
 function promptPasswordTypes() {
 
-// initialize character types
-confirmLowercase = "";
-confirmUppercase = "";
-confirmNumeric = "";
-confirmSpecialCharacters = "";
-
 // reapeat until one character type is selected
 do {
     confirmLowercase = confirm("Would you like to include lowercase characters?"); // confirm lower case character

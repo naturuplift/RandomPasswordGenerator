@@ -34,8 +34,10 @@ For a visual representation of the sequence of actions involved in generating a 
 Feel free to reach out, contribute, or provide feedback to make the Password Generator Project even more robust and user-friendly!
 
 ## License
-MIT
+
+This project is licensed under the MIT License. See the [LICENSE][MIT] file for details.
 
 [pass-gen]: <https://naturuplift.github.io/password-generator/>
 [javascript-code]: <https://github.com/naturuplift/password-generator/blob/main/Assets/scripts/script.js>
 [state-flow]: <https://github.com/naturuplift/password-generator/blob/main/Password-Generator_v2.png>
+[MIT]: <https://github.com/naturuplift/password-generator/blob/main/LICENSE>

@@ -19,6 +19,9 @@ var passwordText = document.querySelector("#password");
 
 // Set value of the password to the generated password
 passwordText.value = password;
+
+// run timmer to reset webpage to initial state
+runTimer(resetWebpage);
 }
 
 // Prompt user for the length of the password
@@ -79,7 +82,34 @@ for (let i=0; i < passwordLengthCriteria; i++) {
     var randomCharacter = Math.floor(Math.random() * characterSetPool.length);
     randomPassword += characterSetPool.charAt(randomCharacter); // add character to password
 }
+
 return randomPassword; // return random password for user criteria
+}
+
+// run timer for time Interval entered by user and after the timer runs out,
+// call the resetWebpage function (passed as a callback)
+function runTimer(callback) {
+// prompt user for lenght of time to display password
+timeResetPage = prompt("For how long would you like to display the password (in seconds)?");
+
+setTimeout(function() { // run timer for timeInterval seconds
+    if (callback) {
+        callback(); // Call the callback function after the timer
+    }
+}, timeResetPage * 1000); // convert to miliseconds *1000
+}
+
+// Reset webpage to original state
+function resetWebpage() {
+
+// let know user need to generate a new password
+alert('Time is up! Generate a new password');
+
+// assignment code to display in webpage block "Your Secure Password"
+var passwordReset = document.querySelector("#password");
+
+// Set value of password to original state
+passwordReset.value = "Your Secure Password";
 }
 
 // Add event listener for button "Generate Password"

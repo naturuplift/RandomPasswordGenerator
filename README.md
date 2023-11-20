@@ -1,4 +1,19 @@
+
 # Password Generator Project
+
+<br/>
+<p align="center">
+    <a href="https://unb.ca/cel/bootcamps/coding.html">
+        <img alt="University of New Brunswick" src="https://img.shields.io/static/v1.svg?label=bootcamp&message=UNB&color=red" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions" >
+        <img alt="JavaScript - Functions" src="https://img.shields.io/static/v1.svg?label=JavaScripts&message=functions&color=blue" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#what_is_javascript" >
+        <img alt="JavaScript - Basics" src="https://img.shields.io/static/v1.svg?label=JavaScripts&message=basics&color=yellow" /></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Traversing_an_HTML_table_with_JavaScript_and_DOM_Interfaces" >
+        <img alt="JavaScript - DOM" src="https://img.shields.io/static/v1.svg?label=JavaScript&message=DOM&color=violet" /></a>
+</p>
+<br/>
+
 Welcome to the Password Generator Project! This browser-based application empowers users to effortlessly create secure and randomized passwords tailored to their preferences. The intuitive user interface guides you through the process, ensuring a seamless and efficient experience.
 
 ## Getting Started
@@ -33,9 +48,11 @@ For a visual representation of the sequence of actions involved in generating a 
 
 Feel free to reach out, contribute, or provide feedback to make the Password Generator Project even more robust and user-friendly!
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE][MIT] file for details.
+
 [pass-gen]: <https://naturuplift.github.io/password-generator/>
 [javascript-code]: <https://github.com/naturuplift/password-generator/blob/main/Assets/scripts/script.js>
 [state-flow]: <https://github.com/naturuplift/password-generator/blob/main/Password-Generator_v2.png>
-
-## License
-MIT
+[MIT]: <https://github.com/naturuplift/password-generator/blob/main/LICENSE>

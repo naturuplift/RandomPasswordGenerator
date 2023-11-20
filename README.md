@@ -1,3 +1,16 @@
+<br/>
+<p align="center">
+    <a href="">
+        <img alt="University of New Brunswick" src="https://img.shields.io/static/v1.svg?label=bootcamp&message=UNB&color=blue" /></a>
+    <a href="" >
+        <img alt="JavaScript - Functions" src="https://img.shields.io/static/v1.svg?label=JavaScripts&message=functions&color=red" /></a>
+    <a href="" >
+        <img alt="JavaScript - Functions" src="https://img.shields.io/static/v1.svg?label=JavaScripts&message=arrays&color=yellow" /></a>
+    <a href="" >
+        <img alt="JavaScript - Prompts" src="https://img.shields.io/static/v1.svg?label=deployment&message=production&color=green" /></a>
+</p>
+<br/>
+
 # Password Generator Project
 Welcome to the Password Generator Project! This browser-based application empowers users to effortlessly create secure and randomized passwords tailored to their preferences. The intuitive user interface guides you through the process, ensuring a seamless and efficient experience.
 

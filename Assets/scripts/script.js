@@ -19,9 +19,7 @@ var passwordText = document.querySelector("#password");
 
 // Set value of the password to the generated password
 passwordText.value = password;
-
 }
-
 
 // Prompt user for the length of the password
 // length of at least 8 characters and no more than 128 characters
@@ -33,9 +31,7 @@ do {
     passwordLengthValue = parseInt(passwordLengthValue); // parse string value and convert it into an integer
 } while (isNaN(passwordLengthValue) || passwordLengthValue < 8 || passwordLengthValue > 128); //
 return passwordLengthValue;
-
 }
-
 
 // Prompt user for character types for the password
 // character types: lowercase, uppercase, numeric, and/or special characters
@@ -58,9 +54,7 @@ do {
 
 // return character types (true or false) in an array [Lowercase,Uppercase,Numeric,SpecialCharacters]
 return [confirmLowercase,confirmUppercase,confirmNumeric,confirmSpecialCharacters];
-
 }
-
 
 // Password Generator function with length value and character types criteria
 // where input passwordLengthCriteria is the length of the password and
@@ -87,9 +81,7 @@ for (let i=0; i < passwordLengthCriteria; i++) {
 }
 
 return randomPassword; // return random password for user criteria
-
 }
-
 
 // Add event listener for button "Generate Password"
 generateBtn.addEventListener("click", writePassword);

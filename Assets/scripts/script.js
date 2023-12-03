@@ -93,7 +93,7 @@ setTimeout(function() { // run timer for timeInterval seconds
 }, timeResetPage * 1000); // convert to miliseconds *1000
 }
 
-// Reset webpage to original state
+// Reset webpage to original state5
 function resetWebpage() {
 
 // let know user need to generate a new password
